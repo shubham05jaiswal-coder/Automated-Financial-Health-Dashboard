@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: finance-dashboard-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: finance_dashboard
+      POSTGRES_USER: finance_app
+      POSTGRES_PASSWORD: change_me_local_only
+    ports:
+      - "5432:5432"
+    volumes:
+      - finance_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U finance_app -d finance_dashboard"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+volumes:
+  finance_pgdata:

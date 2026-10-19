@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+logs/*.log
+logs/rejected_rows_*.csv
+data/archive/*
+!data/archive/.gitkeep
