@@ -1,0 +1,16 @@
+transaction_id,transaction_date,description,category,transaction_type,amount,department,payment_method,counterparty,currency
+TXN-1001,2026-01-05,Product sales - invoice 1001,Sales,revenue,125000.00,Sales,Bank Transfer,Customer A,INR
+TXN-1002,2026-01-08,Office rent January,Rent,expense,28000.00,Administration,Bank Transfer,Property Owner,INR
+TXN-1003,2026-01-10,Cloud hosting,Software,expense,6500.00,Technology,Card,Cloud Provider,INR
+TXN-1004,2026-01-12,Customer payment received,Collections,cash_in,95000.00,Sales,Bank Transfer,Customer A,INR
+TXN-1005,2026-01-15,Supplier payment,Supplies,cash_out,22000.00,Operations,Bank Transfer,Supplier B,INR
+TXN-1006,2026-02-03,Product sales - invoice 1006,Sales,revenue,148000.00,Sales,Bank Transfer,Customer C,INR
+TXN-1007,2026-02-05,Marketing campaign,Marketing,expense,12500.00,Marketing,Card,Ad Platform,INR
+TXN-1008,2026-02-08,Payroll,Payroll,expense,54000.00,Human Resources,Bank Transfer,Employees,INR
+TXN-1009,2026-02-11,Customer payment received,Collections,cash_in,110000.00,Sales,Bank Transfer,Customer C,INR
+TXN-1010,2026-02-15,Equipment purchase payment,Equipment,cash_out,18000.00,Technology,Bank Transfer,Hardware Vendor,INR
+TXN-1011,2026-03-02,Product sales - invoice 1011,Sales,revenue,162000.00,Sales,Bank Transfer,Customer D,INR
+TXN-1012,2026-03-04,Electricity bill,Utilities,expense,7800.00,Administration,Bank Transfer,Power Utility,INR
+TXN-1013,2026-03-07,Professional services,Consulting,revenue,35000.00,Consulting,Bank Transfer,Client E,INR
+TXN-1014,2026-03-10,Customer payment received,Collections,cash_in,130000.00,Sales,Bank Transfer,Customer D,INR
+TXN-1015,2026-03-12,Vendor payment,Supplies,cash_out,26500.00,Operations,Bank Transfer,Supplier C,INR
