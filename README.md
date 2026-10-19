@@ -177,3 +177,8 @@ Before production:
 - No rows loaded: ensure transaction columns match the input contract; non-transaction workbooks are skipped.
 - Invalid rows: inspect the newest `logs/rejected_rows_*.csv`.
 - Duplicate rows: IDs are upserted by `transaction_id`; do not generate a new ID on every run.
+
+## Important notes
+- The project includes runnable ETL and SQL source code, sample data, and Power BI measure definitions. It does not include a prebuilt .pbix dashboard file.
+- The sample credentials are for local development only. Change them before using real financial data.
+- Before production deployment, add alert notifications, budget-row rejection auditing, database backups, and a tested recovery procedure.
